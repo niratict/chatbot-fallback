@@ -1,0 +1,17 @@
+{
+    "name": "line-chatbot-webhook",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+        "node": "18.x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "dialogflow-fulfillment": "^0.6.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "firebase-admin": "^11.11.0"
+    }
+}
